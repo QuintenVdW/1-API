@@ -25,8 +25,6 @@ def get_db():
         db.close()
 
 
-app = FastAPI()
-
 
 @app.get("/faction/Jedi", response_model=list[schemas.Star_wars_base])
 def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
@@ -58,8 +56,7 @@ def create_user(user: schemas.Star_wars_create, db: Session = Depends(get_db)):
 
 @app.post("/faction_add/", response_model=schemas.Faction)
 def create_faction(faction: schemas.FactionCreate, db: Session = Depends(get_db)):
-    faction = crud.get_faction_by_name(db, faction_name=faction.name)
-    if faction:
+    faction_check = crud.get_faction_by_name(db, faction_name=faction.name)
+    if faction_check:
         raise HTTPException(status_code=400, detail="Name already registered")
     return crud.create_faction(db=db, faction=faction)
-

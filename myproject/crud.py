@@ -7,8 +7,10 @@ import schemas
 def get_name(db: Session, user_name: str):
     return db.query(models.Star_wars).filter(models.Star_wars.name == user_name).first()
 
+
 def get_faction_by_name(db: Session, faction_name: str):
     return db.query(models.Faction).filter(models.Faction.name == faction_name).first()
+
 
 def get_faction(db: Session, faction: int, skip: int = 0, limit: int = 10):
     return db.query(models.Star_wars).filter(models.Star_wars.faction == faction).offset(skip).limit(limit).all()
