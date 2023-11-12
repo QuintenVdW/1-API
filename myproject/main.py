@@ -67,3 +67,4 @@ def create_faction(faction: schemas.FactionCreate, db: Session = Depends(get_db)
     if faction_check:
         raise HTTPException(status_code=400, detail="Name already registered")
     return crud.create_faction(db=db, faction=faction)
+
