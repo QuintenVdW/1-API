@@ -8,3 +8,6 @@ Je kan ook nieuwe characters of facties toevoegen bij deze database om deze zo t
 
 ## OKTETO 
 Dit is de link naar dehost op de OKTETO service: https://system-service-quintenvdw.cloud.okteto.net
+
+## images
+![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/5f5c04c4-6dac-4e15-93b9-a739b2ebb4d2)
