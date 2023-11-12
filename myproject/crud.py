@@ -22,7 +22,7 @@ def get_faction_by_name(db: Session, faction_name: str):
 
 
 def get_faction(db: Session, user_name: str, limit: int = 10):
-    return [schemas.Star_wars_base.from_orm(user) for user in db.query(models.Star_wars).filter(models.Star_wars.user_name == user_name).limit(limit).all()]
+    return [schemas.Star_wars_base.from_orm(user) for user in db.query(models.Star_wars).filter(models.Star_wars.name == user_name).limit(limit).all()]
 
 
 def create_character(db: Session, user: schemas.Star_wars_create):
