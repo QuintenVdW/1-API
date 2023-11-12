@@ -45,6 +45,14 @@ def read_user(name: str, db: Session = Depends(get_db)):
     return db_user
 
 
+@app.delete("/character/", response_model=schemas.Star_wars)
+def read_user(name: str, db: Session = Depends(get_db)):
+    db_user = crud.delete_character_by_name(db, user_name=name)
+    if db_user is None:
+        raise HTTPException(status_code=404, detail="User not found")
+    return db_user
+
+
 @app.post("/characters_add/", response_model=schemas.Star_wars)
 def create_user(user: schemas.Star_wars_create, db: Session = Depends(get_db)):
     db_user = crud.get_name(db, user_name=user.name)
