@@ -20,3 +20,18 @@ Dit is de link naar dehost op de OKTETO service: https://system-service-quintenv
 ![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/16ce5a9c-e6d4-4bc3-80ac-dec94fc06ce1)
 ### delete
 ![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/be4ec5b9-528c-4446-928d-d95639e17fe0)
+
+## open AI docs
+![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/663ba818-2755-4a89-9e89-37890b8744f9)
+### endpoint 1
+![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/fd0b9530-4333-4b5f-893f-2adeebfb16d6)
+### endpoint 2
+![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/f4ad7950-f42b-428a-b166-fe025a992dfe)
+### endpoint 3
+![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/debc0505-687e-4b80-be13-289a1187175d)
+### endpoint 4
+![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/d477d235-1ba7-4e75-af2d-12b0660be6cd)
+### endpoint 5
+![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/00582cfe-6e0f-4b7e-a2f9-47dde8ee5a09)
+### endpoint 6
+![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/53e08672-a4bc-4e68-a339-04b0f5c95868)
