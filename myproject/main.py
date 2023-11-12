@@ -25,16 +25,15 @@ def get_db():
         db.close()
 
 
-
 @app.get("/faction/Jedi", response_model=list[schemas.Star_wars_base])
-def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    users = crud.get_faction(db, faction=1, skip=skip, limit=limit)
+def read_users(limit: int = 100, db: Session = Depends(get_db)):
+    users = crud.get_faction(db, faction=2, limit=limit)
     return users
 
 
 @app.get("/faction/Sith", response_model=list[schemas.Star_wars_base])
-def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    users = crud.get_faction(db, faction=2, skip=skip, limit=limit)
+def read_users(limit: int = 100, db: Session = Depends(get_db)):
+    users = crud.get_faction(db, faction=1, limit=limit)
     return users
 
 
