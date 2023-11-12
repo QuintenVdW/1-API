@@ -9,6 +9,9 @@ class Star_wars_base(BaseModel):
     species: str
     addition: str | None = None
 
+    class Config:
+        orm_mode = True
+
 
 class Star_wars(Star_wars_base):
     id: int
