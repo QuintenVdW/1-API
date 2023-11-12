@@ -16,3 +16,5 @@ Dit is de link naar dehost op de OKTETO service: https://system-service-quintenv
 ![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/bbe18f47-534c-4ebb-a821-1c621a6b2fe6)
 ### get 1
 ![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/5d229971-aa6c-423d-aa80-a4a4a54d6a05)
+### get 2
+![image](https://github.com/QuintenVdW/apiquintenvdw/assets/104367615/16ce5a9c-e6d4-4bc3-80ac-dec94fc06ce1)
